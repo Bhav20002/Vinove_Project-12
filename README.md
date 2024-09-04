@@ -18,31 +18,31 @@ Follow these steps to set up and run the Activity Tracker on your local machine:
 
 1 - Install virtualenv
 
-bash
+```bash
 pip install virtualenv
-
+```
 2 - Create a Virtual Environment
-bash
+```bash
 virtualenv venv
-
+```
 3 - Activate the Virtual Environment
-bash
+```bash
 venv\Scripts\activate
-
+```
 4 - Install Project Dependencies
-bash
+```bash
 pip install -r requirements.txt
-
+```
 
 Now install all the dependencies required to run the project . 
 eg:- For monitoring battery status
-bash
+```bash
 pip install psutil
-
+```
 
 Project Structure
 * The project is organized into the following structure for clarity and easy navigation:
-bash
+```bash
 Vinove-project-main/
 ├── README.md
 ├── activity_log.log
@@ -62,3 +62,4 @@ Vinove-project-main/
     │   ├── [hidden elements]
     ├── templates/
         └── index.html
+``` 
